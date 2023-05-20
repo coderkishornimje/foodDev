@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home component to check app render correctly 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#ffffff",
+      "height": "100%",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "margin": 50,
+      }
+    }
+  >
+    <Image
+      resizeMode="stretch"
+      source={
+        {
+          "testUri": "../../../images/locationLogo.png",
+        }
+      }
+      style={
+        {
+          "height": 300,
+          "width": 350,
+        }
+      }
+    />
+    <Text
+      style={
+        {
+          "color": "#000000",
+          "fontSize": 30,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Allow Location
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#000000",
+          "fontSize": 18,
+        }
+      }
+    >
+      We need your Permeission to access
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#000000",
+          "fontSize": 18,
+        }
+      }
+    >
+      your location
+    </Text>
+  </View>
+  <RNGestureHandlerButton
+    collapsable={false}
+    delayLongPress={600}
+    enabled={true}
+    exclusive={true}
+    handlerTag={2}
+    handlerType="NativeViewGestureHandler"
+    onGestureEvent={[Function]}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    onHandlerStateChange={[Function]}
+    rippleColor={0}
+    testID="allowBtn"
+    touchSoundDisabled={false}
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      style={
+        {
+          "backgroundColor": "#94CD00",
+          "borderRadius": 40,
+          "margin": 40,
+          "marginHorizontal": 40,
+          "opacity": 1,
+          "padding": 15,
+          "top": 0,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "alignSelf": "center",
+            "color": "#ffffff",
+            "fontSize": 20,
+          }
+        }
+      >
+        ALLOW LOCATION
+      </Text>
+    </View>
+  </RNGestureHandlerButton>
+  <Text
+    style={
+      {
+        "alignSelf": "center",
+        "bottom": 15,
+        "color": "#000000",
+        "fontSize": 20,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Don't Allow
+  </Text>
+</View>
+`;

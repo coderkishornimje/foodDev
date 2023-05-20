@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app component to check app render correctly 1`] = `
+<View
+  style={
+    {
+      "height": "100%",
+    }
+  }
+>
+  <View
+    accessibilityIgnoresInvertColors={true}
+    style={
+      {
+        "height": "100%",
+        "width": "100%",
+      }
+    }
+  >
+    <Image
+      resizeMode="stretch"
+      source={
+        {
+          "testUri": "../../../images/Rectangle.png",
+        }
+      }
+      style={
+        [
+          {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          {
+            "height": "100%",
+            "width": "100%",
+          },
+          undefined,
+        ]
+      }
+    />
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "bottom": 100,
+          "flexDirection": "column",
+          "height": "100%",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 100,
+        }
+      }
+    >
+      <Image
+        source={
+          {
+            "testUri": "../../../images/Sicon.png",
+          }
+        }
+        style={
+          {
+            "height": 100,
+            "width": 200,
+          }
+        }
+      />
+      <Text
+        style={
+          {
+            "alignSelf": "center",
+            "color": "white",
+            "fontSize": 35,
+            "fontWeight": "bold",
+            "marginLeft": 45,
+          }
+        }
+      >
+        Food Delivery
+      </Text>
+    </View>
+  </View>
+</View>
+`;
